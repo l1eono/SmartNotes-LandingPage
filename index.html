@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartNotes - Intelligent cloud-based note-taking and collaboration tool    </title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/icons/favicon.ico" type="image/x-icon">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="./assets/css/smartnotes.css">
+    <!-- Fontawesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Start Header -->
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./assets/images/logo/Logo.png" alt="">
+            </div>
+            <input type="checkbox" id="sidebar-active">
+            <label for="sidebar-active" class="open-sidebar-button">
+                <!-- <div class="bars"> -->
+                    <i class="fa-solid fa-bars" onclick="changeIcon(this)"></i>
+                <!-- </div> -->
+            </label>
+            <!-- Layer -->
+            <img src="./assets/images/layer-1b.png" alt="" class="nav-layer-img" draggable="false">
+
+            <ul class="nav-links">
+                <!-- <label for="sidebar-active" class="close-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"></path></svg>
+                </label> -->
+                <li><a href="#features-section">Features</a></li>
+                <li><a href="#price-section">Pricing</a></li>
+                <li><a href="#support-section" class="inactive">FAQs</a></li>
+                <li><a href="#support-section">Support</a></li>
+                <div class="nv-socials">
+                    <div class="ft-sc-icon"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="ft-sc-icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="ft-sc-icon"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="ft-sc-icon"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+            </ul>
+            <div class="btn-reg">
+                <a href="#">Get Started <img src="./assets/images/hero/Arrow.png" alt=""></a>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Hero -->
+    <div class="hero">
+        <div class="hero_container container">
+            <div class="hero-info">
+                <div class="hero-h">
+                    <h1><span class="graditen-txt-1">Intelligent</span> cloud-based 
+                        <span class="graditen-txt-1">note-taking</span> and collaboration tool</h1>
+                    <p>Experience the power of smart note-taking and transform the way you work today.</p>
+                </div>
+                <div class="hero-form">
+                    <form action="">
+                        <input type="email" name="email" id="hemail" placeholder="Enter your email">
+                        <a href="#" class="#">Sign Up <img src="./assets/images/hero/Arrow.png" alt=""></a>
+                    </form>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./assets/images/hero/Row1.png" alt="">
+                <img src="./assets/images/hero/Row2.png" alt="">
+                <img src="./assets/images/hero/Row3.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End Hero -->
+    <!-- Partnerships -->
+    <div class="partners_conatiner">
+        <div class="slider" style="
+            --width: 100px;
+            --height:50px;
+            --quantity: 8;">
+            <div class="list">
+                <div class="item" style="--position: 1"><img src="./assets/images/logo/Logo1.png" alt=""></div>
+                <div class="item" style="--position: 2"><img src="./assets/images/logo/Logo2.png" alt=""></div>
+                <div class="item" style="--position: 3"><img src="./assets/images/logo/Logo3.png" alt=""></div>
+                <div class="item" style="--position: 4"><img src="./assets/images/logo/Logo4.png" alt=""></div>
+                <div class="item" style="--position: 5"><img src="./assets/images/logo/Logo5.png" alt=""></div>
+                <div class="item" style="--position: 6"><img src="./assets/images/logo/Logo1.png" alt=""></div>
+                <div class="item" style="--position: 7"><img src="./assets/images/logo/Logo2.png" alt=""></div>
+                <div class="item" style="--position: 8"><img src="./assets/images/logo/Logo3.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+        <!-- End Partnerships -->
+    <!-- Quote -->
+    <div class="quote">
+        <div class="quote-info">
+            <img src="./assets/images/quotes.png" alt="">
+            <p class="quote-txt">The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.</p>
+            <p class="owner-quote">Sarah Johnson <span class="">TechSavvy Solutions</span></p>
+        </div>
+    </div>
+        <!-- End Quote -->
+    <!-- Discover Section -->
+    <div class="discover" id="features-section">
+        <!-- Layer -->
+        <img src="./assets/images/Layer_1.png" alt="">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="special-head">Discover the Power of <span class="graditen-txt-1">SmartNotes</span></h1>
+                <p class="head-info">SmartNotes is packed with innovative features designed to revolutionize the way you take notes, collaborate with others, and stay organized.</p>
+            </div>
+            <div class="discover-grid">
+                <div class="row1">
+                    <div class="grid-box">
+                        <div class="icon">
+                            <img src="./assets/images/icons/like-icon.png" alt="">
+                        </div>
+                        <div class="box-txt">
+                            <h2 class="title">Cross-Platform Accessibility</h2>
+                            <p class="grid-txt">Whether you're on your desktop, tablet, or smartphone, SmartNotes is accessible across all devices. Work seamlessly on the go and never miss a beat.</p>
+                        </div>
+                    </div>
+                    <div class="grid-box gr-box-2">
+                        <div class="icon">
+                            <img src="./assets/images/icons/world-icon.png" alt="">
+                        </div>
+                        <div class="box-txt">
+                            <h2 class="title">Customizable Templates</h2>
+                            <p class="grid-txt">Create custom templates for your recurring tasks or projects to save time and ensure consistency. Tailor SmartNotes to fit your unique workflow and preferences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="grid-box secure-box">
+                        <div class="icon">
+                            <img src="./assets/images/icons/flag-icon.png" alt="">
+                        </div>
+                        <div class="box-txt">
+                            <h2 class="title">Secure Cloud Storage</h2>
+                            <p class="grid-txt">Rest easy knowing that your notes are securely stored in the cloud. Access your information from any device, anytime, without worrying about losing important data.</p>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="icon">
+                            <img src="./assets/images/icons/collaboration-icon.png" alt="">
+                        </div>
+                        <div class="box-txt">
+                            <h2 class="title">Real-Time Collaboration</h2>
+                            <p class="grid-txt">Collaborate seamlessly with your team members or classmates in real-time on shared notes and projects.</p>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="icon">
+                            <img src="./assets/images/icons/hashtag-icon.png" alt="">
+                        </div>
+                        <div class="box-txt">
+                            <h2 class="title">AI-Powered Organization</h2>
+                            <p class="grid-txt">Our AI-powered organization feature categorizes and prioritizes your notes, making it easy to find what you need when you need it.</p>
+                        </div>
+                    </div>
+                    <div class="grid-box inter-box">
+                        <div class="icon">
+                            <img src="./assets/images/icons/connection-icon.png" alt="">
+                        </div>
+                        <div class="box-txt">
+                            <h2 class="title">Integrations</h2>
+                            <p class="grid-txt">Connect SmartNotes with your favorite productivity tools like Google Drive, Trello, and Slack. Streamline your workflow by syncing data across platforms and enhancing collaboration.c</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- End Discover -->
+    <!-- Quote -->
+    <div class="quote">
+        <div class="quote-info">
+            <img src="./assets/images/quotes.png" alt="">
+            <p class="quote-txt">The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.</p>
+            <p class="owner-quote">Sarah Johnson <span class="">TechSavvy Solutions</span></p>
+        </div>
+    </div>
+        <!-- End Quote -->
+    <!-- Video Section -->
+    <div class="video">
+        <!-- layer -->
+        <!-- <img src="./assets/images/layer-x.png" alt="">
+        <img src="./assets/images/layer-x1.png" alt=""> -->
+        <div class="container">
+            <div class="video-container">
+                <img src="./assets/images/layer-x.png" alt="">
+                <!-- <img src="./assets/images/layer-x1.png" alt="" class="layer-x1"> -->
+                <div class="img-container">
+                    <img src="./assets/images/video/BG.png" alt="" class="bg-vid">
+                    <img src="./assets/images/video/play.png" alt="" class="play-btn">
+                    <div class="layer"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        <!-- End Video Section -->
+    <!-- Quote -->
+    <div class="quote">
+        <div class="quote-info">
+            <img src="./assets/images/quotes.png" alt="">
+            <p class="quote-txt">The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.</p>
+            <p class="owner-quote">Sarah Johnson <span class="">TechSavvy Solutions</span></p>
+        </div>
+    </div>
+        <!-- End Quote -->
+    <!-- Start Pricing -->
+    <div class="pricing" id="price-section">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="special-head"><span class="graditen-txt-1">Pricing</span> & Plans</h1>
+                <p class="head-info">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+            </div>
+            <div class="price-info">
+                <div class="monthly-price">
+                    <p>Monthly</p>
+                    <input type="checkbox" id="switch">
+                    <label for="switch" class="switch-btn"></label>
+                </div>
+                <div class="yearly-price">
+                    <p>Yearly</p>
+                    <div class="bx-sold">Save 25%</div>
+                </div>
+            </div>
+            <div class="price-container">
+                <div class="pricing-box">
+                    <div class="prc-title">
+                        <div class="prc-icon">
+                            <img src="./assets/images/icons/star.png" alt="">
+                        </div>
+                        <p class="prc-txt">Individual Plan</p>
+                    </div>
+                    <div class="plan-price">
+                        <p class="plan-p">$9.99 <span>/ month</span></p>
+                    </div>
+                    <div class="plan-info">
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Real-time collaboration</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>AI-powered organization</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Customizable templates</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>5GB cloud storage</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Basic integrations</p>
+                        </div>
+                    </div>
+                    <div class="price-btn">
+                        <a href="#" class="plan-button">Start Free Trial <img src="./assets/images/icons/arrow-green.png" alt=""></a>
+                        <p>No credit card required</p>
+                    </div>
+                </div>
+                <div class="pricing-box">
+                    <div class="prc-title">
+                        <div class="prc-icon">
+                            <img src="./assets/images/icons/star2.png" alt="">
+                        </div>
+                        <p class="prc-txt">Team Plan</p>
+                    </div>
+                    <div class="plan-price">
+                        <p class="plan-p">$19.99 <span>/ month</span></p>
+                    </div>
+                    <div class="plan-info">
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Everything in the Individual Plan</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Unlimited cloud storage</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Advanced integrations</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Team management and permissions</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Shared templates and note libraries</p>
+                        </div>
+                    </div>
+                    <div class="price-btn">
+                        <a href="#" class="plan-button">Start Free Trial <img src="./assets/images/icons/arrow.png" alt=""></a>
+                        <p>No credit card required</p>
+                    </div>
+                </div>
+                <div class="pricing-box">
+                    <div class="prc-title">
+                        <div class="prc-icon">
+                            <img src="./assets/images/icons/price-icon3.png" alt="">
+                        </div>
+                        <p class="prc-txt">Enterprise Plan</p>
+                    </div>
+                    <div class="plan-price">
+                        <p class="plan-p">Custom <span></span></p>
+                    </div>
+                    <div class="plan-info">
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Everything in the Team Plan</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Dedicated account manager</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Enterprise-grade security</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Customized onboarding</p>
+                        </div>
+                        <div class="plan-features">
+                            <img src="./assets/images/icons/checked.png" alt="">
+                            <p>Advanced analytics</p>
+                        </div>
+                    </div>
+                    <div class="price-btn">
+                        <a href="#" class="plan-button">Contact support <img src="./assets/images/icons/arrow-green.png" alt=""></a>
+                        <p>No credit card required</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- End Pricing -->
+    <!-- Quote -->
+    <div class="quote">
+        <div class="quote-info">
+            <img src="./assets/images/quotes.png" alt="">
+            <p class="quote-txt">The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.</p>
+            <p class="owner-quote">Sarah Johnson <span class="">TechSavvy Solutions</span></p>
+        </div>
+    </div>
+        <!-- End Quote -->
+    <!-- Start Q&A Section -->
+    <div class="qusetions" id="support-section">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="special-head">Frequently Asked <span class="graditen-txt-1">Questions</span></h1>
+                <p class="head-info">We've compiled a list of the most frequently asked questions about SmartNotes to help you get the information you need. 
+                    If you have any other questions, feel free to reach out to our support team.</p>
+            </div>
+            <div class="accordion-container">
+                <ul class="accordion">
+                    <input type="checkbox" name="accordion" id="first">
+                    <li>
+                        <!-- <input type="checkbox" name="accordion" id="first"> -->
+                        <label for="first">What is SmartNotes? </label>
+                        <div class="content">
+                            <p>Getting started with SmartNotes is easy! Simply visit our website, sign up for a free trial, 
+                                and start exploring the features. Our intuitive interface and comprehensive onboarding materials will guide you through the process.</p>
+                        </div>
+                    </li>
+                    <input type="checkbox" name="accordion" id="second">
+                    <li>
+                        <!-- <input type="checkbox" name="accordion" id="second"> -->
+                        <label for="second">How do I get started<wbr/> with <wbr/> SmartNotes? </label>
+                        <div class="content">
+                            <p>Getting started with SmartNotes is easy! Simply visit our website, sign up for a free trial, 
+                                and start exploring the features. Our intuitive interface and comprehensive onboarding materials will guide you through the process.</p>
+                        </div>
+                    </li>
+                    <input type="checkbox" name="accordion" id="third">
+                    <li>
+                        <!-- <input type="checkbox" name="accordion" id="third"> -->
+                        <label for="third">What are the key<wbr/> features<wbr/> of SmartNotes? </label>
+                        <div class="content">
+                            <p>Getting started with SmartNotes is easy! Simply visit our website, sign up for a free trial, 
+                                and start exploring the features. Our intuitive interface and comprehensive onboarding materials will guide you through the process.</p>
+                        </div>
+                    </li>
+                    <input type="checkbox" name="accordion" id="fourth">
+                    <li>
+                        <!-- <input type="checkbox" name="accordion" id="fourth"> -->
+                        <label for="fourth">How much does SmartNotes cost? </label>
+                        <div class="content">
+                            <p>Getting started with SmartNotes is easy! Simply visit our website, sign up for a free trial, 
+                                and start exploring the features. Our intuitive interface and comprehensive onboarding materials will guide you through the process.</p>
+                        </div>
+                    </li>
+                    <input type="checkbox" name="accordion" id="fifth">
+                    <li>
+                        <!-- <input type="checkbox" name="accordion" id="fifth"> -->
+                        <label for="fifth">Who is SmartNotes for? </label>
+                        <div class="content">
+                            <p>Getting started with SmartNotes is easy! Simply visit our website, sign up for a free trial, 
+                                and start exploring the features. Our intuitive interface and comprehensive onboarding materials will guide you through the process.</p>
+                        </div>
+                    </li>
+                    <input type="checkbox" name="accordion" id="sixth">
+                    <li>
+                        <!-- <input type="checkbox" name="accordion" id="sixth"> -->
+                        <label for="sixth">What is SmartNotes? </label>
+                        <div class="content">
+                            <p>Getting started with SmartNotes is easy! Simply visit our website, sign up for a free trial, 
+                                and start exploring the features. Our intuitive interface and comprehensive onboarding materials will guide you through the process.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!-- End Q&A Section -->
+    <!-- Quote -->
+    <div class="quote last-quote">
+        <div class="quote-info">
+            <img src="./assets/images/quotes.png" alt="">
+            <p class="quote-txt">The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.</p>
+            <p class="owner-quote">Sarah Johnson <span class="">TechSavvy Solutions</span></p>
+        </div>
+    </div>
+        <!-- End Quote -->
+    <!-- Statrt Potential Section -->
+    <div class="potential">
+        <!-- layer -->
+         <img src="./assets/images/layerO.png" alt="">
+        <div class="container">
+            <div class="potential-container">
+                <div class="pt-text">
+                    <div class="pt-heading">
+                        <h1>Unlock the Full Potential of <span class="graditen-txt-1">SmartNotes</span></h1>
+                        <p>Ready to streamline your workflow and boost your productivity? 
+                            Start your free trial of SmartNotes today and experience the power of smart note-taking.</p>                        
+                    </div>
+                    <div class="pt-btn">
+                        <a href="#">Sign Up for Free <img src="./assets/images/icons/arrow-black.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="pt-img">
+                    <img src="./assets/images/icons/CTA.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- End Potential Section -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="ftr-one">
+                <div class="logo">
+                    <img src="./assets/images/logo/Logo.png" alt="">
+                </div>
+                <div class="ftr-form">
+                    <form action="#">
+                        <label for="email-reg"></label>
+                        <input type="email" placeholder="email@smartnote.io" id="email-reg">
+                    </form>
+                </div>
+            </div>
+            <div class="ftr-two">
+                <div class="footer-info">
+                    <h5>Product</h5>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Features</a></p>
+                    <p><a href="#">Pricing</a></p>
+                    <p><a href="#">Integrations</a></p>
+                    <p><a href="#">FAQs</a></p>
+                </div>
+                <div class="footer-info">
+                    <h5>Company</h5>
+                    <p><a href="#">Our Story</a></p>
+                    <p><a href="#">Team</a></p>
+                    <p><a href="#">Careers</a></p>
+                    <p><a href="#">Press</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </div>
+                <div class="footer-info">
+                    <h5>Resources</h5>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Webinars</a></p>
+                    <p><a href="#">Case Studies</a></p>
+                    <p><a href="#">Templates</a></p>
+                    <p><a href="#">Help Center</a></p>
+                </div>
+                <div class="footer-info">
+                    <h5>Legal</h5>
+                    <p><a href="#">Terms of Service</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Cookie Policy</a></p>
+                    <p><a href="#">Acceptable Use</a></p>
+                    <p><a href="#">Refund Policy</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="ftr-copyright">
+            <div class="copyright-container">
+                <div class="ftr-rights">
+                    <p class="ftr-right-txt">@2024 SmartNotesI. All Rights Reserved. @iamhervewabo</p>
+                </div>
+                <div class="ftr-socials">
+                    <div class="ft-sc-icon"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="ft-sc-icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="ft-sc-icon"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="ft-sc-icon"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- End Footer -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
